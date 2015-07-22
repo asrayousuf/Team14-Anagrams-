@@ -6,4 +6,4 @@ Store the input file with the name sowpodsInput.txt
 
 Run the code
 
-Check for the output  in a file named anagramOutput.txt
+Check for the output  in a file named anagramOutput.txt on your Desktop
