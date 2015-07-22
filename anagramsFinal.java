@@ -14,10 +14,10 @@ public class anagramsFinal {
 	
 	public static void main(String args[]) throws NumberFormatException, IOException {
 		
-		FileReader sowpods= new FileReader("C:/Users/test/Pictures/sowpods.txt");
+		FileReader sowpods= new FileReader("C:/Users/test/Desktop/sowpodsInput.txt");
 		BufferedReader in=new BufferedReader(sowpods);
 		
-		String filePath="C:/Users/test/Pictures/anagramOutput.txt";
+		String filePath="C:/Users/test/Desktop/anagramOutput.txt";
 		FileOutputStream fos = new FileOutputStream(filePath);
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 		
